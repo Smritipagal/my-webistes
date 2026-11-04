@@ -1,0 +1,6 @@
+{
+  "name": "Kroma & Co. | Architectural Living & Objects",
+  "description": "Handcrafted furniture, sculptural lighting, and curated objects for intentional living spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
