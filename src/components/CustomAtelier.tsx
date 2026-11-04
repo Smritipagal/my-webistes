@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Product } from '../data/products';
+import { Product, chairImg, heroImg, pendantImg } from '../data/products';
 import { Check, Sparkles, Layers, Sliders, Box, ArrowRight } from 'lucide-react';
 
 interface CustomAtelierProps {
@@ -22,7 +22,7 @@ const ARCHETYPES: Archetype[] = [
     name: 'Møller Architectural Lounge',
     category: 'Furniture',
     basePrice: 1420,
-    image: '/src/assets/images/product_walnut_armchair_1793759810990.jpg',
+    image: chairImg,
     dimensions: 'W 78cm × D 84cm × H 72cm',
     baseWeight: '19.5 kg'
   },
@@ -31,7 +31,7 @@ const ARCHETYPES: Archetype[] = [
     name: 'Torino Monolith Plinth',
     category: 'Furniture',
     basePrice: 920,
-    image: '/src/assets/images/hero_architectural_living_1793759809867.jpg',
+    image: heroImg,
     dimensions: 'L 100cm × W 60cm × H 32cm',
     baseWeight: '42.0 kg'
   },
@@ -40,7 +40,7 @@ const ARCHETYPES: Archetype[] = [
     name: 'Aethel Spun Pendant',
     category: 'Lighting',
     basePrice: 640,
-    image: '/src/assets/images/product_brass_pendants_1793759811965.jpg',
+    image: pendantImg,
     dimensions: 'Dia 34cm × H 22cm',
     baseWeight: '4.8 kg'
   }

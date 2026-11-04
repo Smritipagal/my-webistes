@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Product } from '../data/products';
+import { Product, heroImg, vaseImg, pendantImg } from '../data/products';
 import { X, ArrowRight, Eye, Sparkles } from 'lucide-react';
 
 interface LookbookModalProps {
@@ -24,7 +24,7 @@ const ROOM_SCENES: RoomScene[] = [
     title: 'The Coastal Pavilion',
     location: 'Aarhus, Denmark',
     description: 'Polished micro-cement floor plates paired with raw bleached oak woodwork and sheer linen drapery, captured in soft morning fjord light.',
-    image: '/src/assets/images/hero_architectural_living_1793759809867.jpg',
+    image: heroImg,
     featuredProductIds: ['moller-armchair', 'aethel-brass-pendants', 'travertine-plinth-table'],
   },
   {
@@ -32,7 +32,7 @@ const ROOM_SCENES: RoomScene[] = [
     title: 'The Kyoto Tea Sanctuary',
     location: 'Higashiyama, Kyoto',
     description: 'Unglazed stoneware and sand-cast bronze candlesticks grounded upon tatami rush matting and cedar partition screens.',
-    image: '/src/assets/images/product_fluted_ceramic_vase_1793759810886.jpg',
+    image: vaseImg,
     featuredProductIds: ['sora-fluted-vase', 'cast-bronze-candlesticks', 'kyoto-bench'],
   },
   {
@@ -40,7 +40,7 @@ const ROOM_SCENES: RoomScene[] = [
     title: 'The Stone Gallery Loft',
     location: 'Tivoli & Florence',
     description: 'Monolithic honed travertine low tables illuminated by spun cartridge brass pendant lighting.',
-    image: '/src/assets/images/product_brass_pendants_1793759811965.jpg',
+    image: pendantImg,
     featuredProductIds: ['aethel-brass-pendants', 'travertine-plinth-table', 'moller-armchair'],
   },
 ];

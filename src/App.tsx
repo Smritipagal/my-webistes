@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { PRODUCTS, Product, CartItem } from './data/products';
+import { PRODUCTS, Product, CartItem, heroImg } from './data/products';
 import { TopNav } from './components/TopNav';
 import { ProductCard } from './components/ProductCard';
 import { QuickViewModal } from './components/QuickViewModal';
@@ -177,7 +177,7 @@ export default function App() {
             <div className="lg:col-span-6">
               <div className="relative rounded-2xl overflow-hidden bg-stone-200 shadow-xl border border-stone-200/80 group">
                 <img
-                  src="/src/assets/images/hero_architectural_living_1793759809867.jpg"
+                  src={heroImg}
                   alt="Architectural living room with Møller lounge chair and brass lamp"
                   referrerPolicy="no-referrer"
                   className="w-full h-full aspect-[16/10] sm:aspect-[4/3] object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-out"

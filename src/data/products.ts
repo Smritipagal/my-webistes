@@ -1,3 +1,10 @@
+import heroImg from '../assets/images/hero_architectural_living_1793759809867.jpg';
+import vaseImg from '../assets/images/product_fluted_ceramic_vase_1793759810886.jpg';
+import chairImg from '../assets/images/product_walnut_armchair_1793759810990.jpg';
+import pendantImg from '../assets/images/product_brass_pendants_1793759811965.jpg';
+
+export { heroImg, vaseImg, chairImg, pendantImg };
+
 export interface Product {
   id: string;
   name: string;
@@ -22,7 +29,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Smoked walnut frame with natural textured bouclé upholstery',
     category: 'Furniture',
     price: 1420,
-    image: '/src/assets/images/product_walnut_armchair_1793759810990.jpg',
+    image: chairImg,
     inStock: true,
     leadTime: 'Ready to ship',
     origin: 'Copenhagen Studio',
@@ -38,7 +45,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Wheel-thrown ribbed ceramic in warm unglazed grog stoneware',
     category: 'Ceramics',
     price: 280,
-    image: '/src/assets/images/product_fluted_ceramic_vase_1793759810886.jpg',
+    image: vaseImg,
     inStock: true,
     leadTime: 'Ready to ship',
     origin: 'Kyoto Kiln Workshop',
@@ -54,7 +61,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Solid spun raw brass cones with directional warm ambient glow',
     category: 'Lighting',
     price: 640,
-    image: '/src/assets/images/product_brass_pendants_1793759811965.jpg',
+    image: pendantImg,
     inStock: true,
     leadTime: 'Ships in 3 days',
     origin: 'Florence Atelier',
@@ -70,7 +77,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Monolithic low table quarried from Tivoli limestone reserves',
     category: 'Furniture',
     price: 920,
-    image: '/src/assets/images/hero_architectural_living_1793759809867.jpg',
+    image: heroImg,
     inStock: true,
     leadTime: 'Ready to ship',
     origin: 'Tivoli, Italy',
@@ -86,7 +93,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Dense basket-weave heirloom textile with hand-fringed edging',
     category: 'Textiles',
     price: 195,
-    image: '/src/assets/images/product_walnut_armchair_1793759810990.jpg',
+    image: chairImg,
     inStock: true,
     leadTime: 'Ready to ship',
     origin: 'Kortrijk, Flanders',
@@ -102,7 +109,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Sand-cast solid bronze holders with calibrated counterweights',
     category: 'Ceramics',
     price: 165,
-    image: '/src/assets/images/product_fluted_ceramic_vase_1793759810886.jpg',
+    image: vaseImg,
     inStock: true,
     leadTime: 'Ready to ship',
     origin: 'Kyoto Kiln Workshop',
@@ -118,7 +125,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Traditional Japanese joinery bench with butterfly keys',
     category: 'Furniture',
     price: 880,
-    image: '/src/assets/images/hero_architectural_living_1793759809867.jpg',
+    image: heroImg,
     inStock: false,
     leadTime: 'Made to order (2-3 weeks)',
     origin: 'Kyoto Studio',
@@ -134,7 +141,7 @@ export const PRODUCTS: Product[] = [
     subtitle: 'Translucent stone discs with hand-brushed bronze backplate',
     category: 'Lighting',
     price: 490,
-    image: '/src/assets/images/product_brass_pendants_1793759811965.jpg',
+    image: pendantImg,
     inStock: true,
     leadTime: 'Ships in 5 days',
     origin: 'Zaragoza Workshop',
